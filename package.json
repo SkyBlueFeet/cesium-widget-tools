@@ -1,0 +1,30 @@
+{
+  "name": "cesium-widget-tools",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@turf/centroid": "^6.5.0",
+    "@turf/helpers": "^6.5.0",
+    "cesium-extends": "^1.8.12",
+    "gdal-js": "^2.2.0",
+    "gdal3.js": "^2.7.0",
+    "loam": "^1.2.0",
+    "nanoid": "^4.0.2",
+    "vue": "^3.3.11",
+    "web-worker": "^1.3.0"
+  },
+  "devDependencies": {
+    "@cesium-extends/subscriber": "1.1.0",
+    "@types/geojson": "^7946.0.10",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "cesium": "1.98",
+    "vite": "^5.0.8",
+    "vite-plugin-cesium": "^1.2.22"
+  }
+}
